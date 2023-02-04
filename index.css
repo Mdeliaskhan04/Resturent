@@ -1,0 +1,152 @@
+/*page section */
+*{
+    width:100%;
+    border:0px;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+/*navbar section */
+.header{
+    width:100%;
+    height:10vh;
+    margin:0px;
+    border:1px solid green;
+    display: flex;
+}
+.left-icon{
+    font-size: 25px;
+    padding-left: 0px;
+    text-decoration: none;
+    text-align:center;
+    float:left;
+    background-color: blue;
+}
+.left-icon a{
+    color:white;
+    text-decoration:none;
+    font-size: 30px;
+}
+.right-icon{
+    padding: 10px;
+    text-align: center;
+    float:left; 
+    background-color: blue;
+}
+.menu{
+    padding:10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    gap:10px;
+    justify-content: space-between;
+}
+
+.menu li{
+    justify-content: space-between;
+    display: flex;
+    gap:15px;
+    text-decoration: none;
+}
+li:hover{
+    background-color:green;
+}
+.menu li a{
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+}
+/*image section*/
+div{
+    width:100%;
+    height:400px;
+    background-color: white;
+}
+div img{
+   width:100%;
+   height:400px;
+}
+/*main section */
+.details{
+    width:100%;
+    height:30vh;
+    margin-top:20px;
+    text-align: center;
+}
+.details h1{
+    color:brown;
+}
+
+/*item section*/
+
+.items{
+    width:100%;
+    height:15vh;
+    display: flex;
+    justify-content: space-between;
+    gap:40px;
+}
+.pic1{
+    padding-left:60px;
+}
+.pic1 img{
+    width:200px;
+    height:200px;
+    border:1px solid blue;
+    padding:10px;
+    border-radius: 5px;
+    background-color:aqua;
+}
+.pic1 p{
+    color:black;
+    font-size: 15px;
+    width:200px;
+    border:1px solid brown;
+    border-radius: 7px;
+    text-align: center;
+    padding:5px;
+    background-color: aqua;
+}
+.pic2{
+    padding-left:60px;
+}
+.pic2 img{
+    width:200px;
+    height:200px;
+    border:1px solid blue;
+    padding:10px;
+    border-radius:5px;
+    background-color:aqua ;
+}
+.pic2 p{
+    color:black;
+    font-size: 15px;
+    width:200px;
+    border:1px solid brown;
+    border-radius: 7px;
+    text-align: center;
+    padding:5px;
+    background-color: aqua;
+}
+.pic3{
+    padding-left:60px;
+}
+.pic3 img{
+    width:200px;
+    height:200px;
+    border:1px solid blue;
+    padding:10px;
+    border-radius: 5px;
+    background-color: aqua;
+}
+.pic3 p{
+    color:black;
+    width:200px;
+    font-size: 15px;
+    border:1px solid brown;
+    border-radius: 7px;
+    text-align: center;
+    padding:5px;
+    background-color: aqua;
+}
